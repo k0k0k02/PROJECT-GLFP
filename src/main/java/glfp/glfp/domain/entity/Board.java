@@ -30,7 +30,6 @@ public class Board {
     @JoinColumn(name = "user_sex")
     private Member fkSex;
 
-
     @Column(length = 30, nullable = false)
     private String postTitle;
 
@@ -39,7 +38,6 @@ public class Board {
 
     @Column(length = 15, nullable = false)
     private LocalDateTime postModifiedTime;
-
 
     @Column(nullable = false)
     private int matchStatus;
